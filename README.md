@@ -8,3 +8,4 @@ Desription:Drop-eat est une compagnie qui a l'aide de drones et d'une applicatio
 
 Alex Degrace(300071786)
 Mountassar Alimi(8395621)
+Shema Traore(300077587)
