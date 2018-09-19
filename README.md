@@ -6,3 +6,4 @@ desription:Drop-eat est une compagnie qui a l'aide de drones vous permet de mang
 
 Alex Degrace(300071786)
 Mountassar Alimi(8395621)
+Jad Bennis (300077625)
