@@ -1,10 +1,10 @@
 # Drop-eat.github.io
 
-nom de la compagnie:Drop-eat
-nom du produit:Drop-eat
-desription:Drop-eat est une compagnie qui a l'aide de drones vous permet de manger 
+Nom de la compagnie:Drop-eat
+
+Nom du produit:Drop-eat
+
+Desription:Drop-eat est une compagnie qui a l'aide de drones et d'une application téléphone vous permet de manger vos plats préférés sans même quitter le comfort de votre maison.
 
 Alex Degrace(300071786)
 Mountassar Alimi(8395621)
-Jad Bennis (300077625)
-Jacob Lavallée (300080928)
