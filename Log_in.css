@@ -1,27 +1,101 @@
 #Header{
-    height: 150px;
+    height: 120px;
     background-color: #999797;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    filter: opacity(0.9);
 }
 
 .loginbox{
-    
+    width: 400px;
+    height: 525px;
+    background-color: #999797;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding:100px 30px;
+}
+
+.avatar{
+    background-color: #999797; 
+    width: 170px;
+    height: 140px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0px;
+    left: 30%;
 }
 
 body{
-    background-color: #f4f4f4;
-    background: ;
+    background: url('images/ville2.jpg');
     background-size: cover;
     background-position: center;
+    height: 700px;
 
 }
 
 #Background{
     padding: 0;
     margin: 0;
-    
-    
 }
 
 h1{
     text-align: center;
+    padding: 50px 0 10px;
+    margin: 0;
+}
+
+.loginbox p{
+    margin:0;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #ffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    background-color: #f4f4f4;
+    color: black;
+    font-size: 16px;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #FF1816;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #FAFAFF;
+    color: black;
+
+    
+}
+
+.loginbox a:hover{
+    
 }
