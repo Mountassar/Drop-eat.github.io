@@ -1,0 +1,25 @@
+body {
+    margin: 0;}
+p {
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+}
+.column {
+    float: left;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
