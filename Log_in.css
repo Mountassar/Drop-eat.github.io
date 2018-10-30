@@ -145,3 +145,23 @@ h1{
     margin-top: 0;
     margin-left: 0;
 }
+
+/* Footer */
+
+
+  .container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    
+  }
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+    width: 100%;
+    background: linear-gradient(180deg, gray, white);
+    color: white;
+    text-align: center;
+  }
