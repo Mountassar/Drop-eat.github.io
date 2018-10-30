@@ -1,0 +1,22 @@
+body{
+
+  font-family: monospace;
+
+}
+}
+.container {
+  width: 1000px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  font-size:
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(180deg, gray, white);
+    color: white;
+    text-align: center;
+}
