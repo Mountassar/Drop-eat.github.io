@@ -115,13 +115,13 @@ h1{
 	padding-right:0px;
 }
 .nav > li > a {
-		text-decoration:none;
-		color: #F4F4F4;
-		width:150px;
-		display:block;
-		padding:40px 40px 15px 10px;
-		text-decoration:none;
-        text-align:center;
+    text-decoration:none;
+    color: #F4F4F4;
+    width:150px;
+    display:block;
+    padding:40px 40px 15px 10px;
+    text-decoration:none;
+    text-align:center;
 }
 .nav > li > a:hover {
     color : #000000;
@@ -154,8 +154,7 @@ h1{
     height: auto;
     text-align: center;
     margin: auto;
-    
-  }
+    }
   .footer {
     position: absolute;
     left: 0;
