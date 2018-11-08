@@ -1,0 +1,134 @@
+
+
+body{
+  background: linear-gradient(to top ,#ffffff 50% ,#cacaca);
+  font-family: montserrat;
+  font-size: 13px;
+  z-index: 1;
+}
+
+body > p {
+	margin: 0;
+	padding: 300px 50px 50px 50px;
+}
+.nav {
+	background-color: #999797;
+	color: #F4F4F4;
+	list-style: none;
+	text-align: center;
+  padding: 0;
+	margin:0 0 0 0;
+	position: fixed;
+  width:100%;
+	overflow:auto;
+  box-shadow: 0 2px 10px 1px rgba(0,0,0,0.25);
+  z-index: 2;
+  right: 0px;
+  top: 0px;
+}
+.nav > ul {
+	margin:0;
+	padding:0 0 0 0px;
+	list-style:none;
+}
+.nav > li {
+	float:right;
+	padding-right:0px;
+}
+.nav > li > a {
+		text-decoration:none;
+		color: #F4F4F4;
+		width:150px;
+		display:block;
+		padding:40px 40px 15px 10px;
+		text-decoration:none;
+        text-align:center;
+}
+.nav > li > a:hover {
+    color : #000000;
+}
+
+.logo{
+	width:10%;
+	padding:0 0 0 0px;
+	margin-top:0px;
+	margin-left:20px;
+  float:left;
+  width: 120px;
+  height: 100px;
+}
+
+.header {
+	height:0px;
+    background-color: #999797;
+    position: fixed;
+    width:0%;
+    margin-top: 0;
+    margin-left: 0;
+}
+.title{
+  margin-top: 110px;
+  font-size: 40px;
+}
+
+.columns {
+
+  margin-top:100px ;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  font-family: monospace;
+
+}
+
+
+.payement{
+  margin-top:100px ;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  background-color:
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  font-family: monospace;
+  font-size: 13px;
+}
+.payment{
+  margin-top:30px ;
+  margin-left: 15%;
+  display: flex;
+  text-align: center;
+  width: 70%;
+
+}
+
+.payment2{
+  align-items: center;
+  margin-left:39%;
+  margin-top: -5%;
+
+}
+.bande{
+  width:100%;
+  background: #F9F9F9;
+  z-index: 2;
+}
+.container {
+  width: 1000px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+.footer {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+}
