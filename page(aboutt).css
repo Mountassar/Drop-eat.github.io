@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.Notre_équipe{
+    overflow: hidden;
+    text-align: center;
+    background: #3f4449;
+    padding: 100px;
+    margin: 0px auto;
+    display: table;
+    width: 90%;
+
+}
+.Notre_équipe h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
+.bordure{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #000000;
+    margin-bottom: 40px;
+
+}
+.photos_eq img{
+    width: auto;
+    height: 120px;
+
+}
+.container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+    width: 100%;
+    background: linear-gradient(180deg, gray, white);
+    color: white;
+    text-align: center;
+  }
+
+
+
