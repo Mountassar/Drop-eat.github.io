@@ -1,0 +1,52 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(contact1600x900.jpg);
+    background-size: cover;
+}
+.Identification_clientèle{
+    
+    font-family       : Tahoma;
+    font-size         : 2em;
+    padding           : 1em;
+
+}
+.Identification_clientèle li{
+    
+    list-style-type   : none;
+    display           : inline-block;
+    padding: 10px 90px;
+    margin: 50px;
+
+}
+.Identification_clientèle li a{ 
+    border: 2px solid green;
+    color             :black;
+    border-radius: 100%;
+    line-height: 100px;
+    display: inline-block;
+    font-weight       : bold;
+    padding           : .5em;
+    text-decoration   : none;
+}
+h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
+}
+.container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+    width: 100%;
+    background: linear-gradient(180deg, gray, white);
+    color: white;
+    text-align: center;
+  }
