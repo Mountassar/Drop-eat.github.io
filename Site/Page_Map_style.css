@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family:'Montserrat', sans-serif;
+}
+body > p {
+    margin: auto;
+    font-size: 18px;
+    width: 50%;
+	padding: 200px 50px 50px 50px;
+}
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    color: #999797;
+}
+.location_bar {
+    margin: 30px 30%;
+}
+.transition {
+    margin: 0 30% 10px;
+}
+.nav {
+	background-color: #999797;
+	color: #F4F4F4;
+	list-style: none;
+	text-align: center;
+	margin:0 0 0 0;
+	position:fixed;
+	width:100%;
+	overflow:auto;
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.25);
+    right: 0px;
+    top: 0px;
+}
+.nav > ul {
+	margin:0;
+	padding:0 0 0 0px;
+	list-style:none;
+}
+.nav > li {
+	float:right;
+	padding-right:0px;
+}
+.nav > li > a {
+		text-decoration:none;
+		color: #F4F4F4;
+		width:150px;
+		display:block;
+		padding:40px 40px 15px 10px;
+		text-decoration:none;
+		text-align:center;
+}
+.nav > li > a:hover {
+	color : #000000;
+}
+.logo{	width:10%;
+	padding:0 0 0 0px;
+	margin-top:0px;
+	margin-left:20px;
+    float:left;
+    width: 120px;
+    height: 100px;
+}
+.header {
+	height:0px;
+    background-color: #999797;
+    position: fixed;
+    width:0%;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+.footer {
+      position: absolute;
+      left: 0;
+      bottom: -60%;
+      width: 100%;
+      background: linear-gradient(180deg, gray, white);
+      color: white;
+      text-align: center;
+}
+.createur{
+    color: #000000;
+}
+
