@@ -25,9 +25,6 @@ input {
 .location_bar {
     margin: 30px 30%;
 }
-.transition {
-    margin: 0 30% 10px;
-}
 .nav {
 	background-color: #999797;
 	color: #F4F4F4;
@@ -53,7 +50,7 @@ input {
 .nav > li > a {
 		text-decoration:none;
 		color: #F4F4F4;
-		width:150px;
+		width:200px;
 		display:block;
 		padding:40px 40px 15px 10px;
 		text-decoration:none;
@@ -93,8 +90,5 @@ input {
       background: linear-gradient(180deg, gray, white);
       color: white;
       text-align: center;
-}
-.createur{
-    color: #000000;
 }
 
