@@ -149,18 +149,22 @@ h1{
 
 
 .container {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    margin: auto;
-    
-  }
-  .footer {
-    position: absolute;
-    left: 0;
-    bottom: -300px;
-    width: 100%;
-    background: linear-gradient(180deg, gray, white);
-    color: white;
-    text-align: center;
-  }
+width: 100%;
+height: auto;
+text-align: center;
+margin: auto;
+
+}
+.footer {
+position: absolute;
+left: 0;
+bottom: -300px;
+width: 100%;
+background: linear-gradient(180deg, gray, white);
+color: white;
+text-align: center;
+}
+
+  .createur{
+    color: #000000;
+}
