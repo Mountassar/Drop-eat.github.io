@@ -7,6 +7,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="Page_Map_style.css">
+      <script>
+        function userAdress()
+        {
+          var adresseRecherche = "https://www.google.com/maps/embed/v1/place?key=AIzaSyAP6YncUk2Chl9X0oVRGhBZ3tLuN6hCBRA&q=University+of+Ottawa,Ottawa+ON";
+          var input = document.getElementById("userInput").value;
+          var adresseDonnee = input.replace(/ /g, "+");
+          adresseRecherche = "https://www.google.com/maps/embed/v1/place?key=AIzaSyAP6YncUk2Chl9X0oVRGhBZ3tLuN6hCBRA&q=" + adresseDonnee;
+          document.getElementById('map').src = adresseRecherche;
+        }
+      </script>
 </head>
 <body>
     <header>
@@ -17,8 +27,9 @@
             <li><a href="https://www.google.com/search?client=avast&q=google">Nous rejoindre</a></li>
         </ul>
     </header>
-    <p>Si vous entrez un emplacement dans la boîte ‌étiqueté "emplacement", nous d‌émontrerions les restaurants dans la r‌égion pour lequels vous pourriez placer une commande. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Si vous entrez une adresse dans la boîte ‌étiqueté "Adresse de livraison", nous d‌émontrerions les restaurants dans la r‌égion pour lequels vous pourriez placer une commande. </p>
     <iframe
+    id = "map"
     width="600"
     height="450"
     frameborder="0" style="border:0"
@@ -26,8 +37,8 @@
   </iframe>
     <div class = location_bar>
       <form>
-        Emplacement :<br>
-        <input type="text" name="emplacement" value="Adresse de livraison"><br>
+        <input type="text" name="emplacement" value="Adresse de livraison" id = userInput><br><br>
+        <input type="submit" value="Submit">
       </form>
     </div>
     <div class = transition>
