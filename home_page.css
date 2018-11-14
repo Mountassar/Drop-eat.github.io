@@ -3,7 +3,6 @@
 body{
   background: linear-gradient(to top ,#ffffff 50% ,#cacaca);
   font-family: montserrat;
-  font-size: 13px;
   z-index: 1;
 }
 
@@ -42,7 +41,7 @@ body > p {
 		display:block;
 		padding:40px 40px 15px 10px;
 		text-decoration:none;
-        text-align:center;
+    text-align:center;
 }
 .nav > li > a:hover {
     color : #000000;
@@ -60,11 +59,11 @@ body > p {
 
 .header {
 	height:0px;
-    background-color: #999797;
-    position: fixed;
-    width:0%;
-    margin-top: 0;
-    margin-left: 0;
+  background-color: #999797;
+  position: fixed;
+  width:0%;
+  margin-top: 0;
+  margin-left: 0;
 }
 .title{
   margin-top: 110px;

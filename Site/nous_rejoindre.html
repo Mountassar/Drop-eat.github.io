@@ -1,41 +1,72 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-    <meta name="description" content="Ceci est le site web pour la compagnie Drop-eat.">
-    <title>Sign in</title>
+<head>
+    <meta charset="UTF-8">
+    <link href="nous_rejoindre.css" rel="stylesheet" type="text/css" >
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="Sign_in.css"/>
-    <script src=""></script>
-    </head>
-    <body>
-        <div>
-            <header>
-                <ul class="nav">	
-                    <div class="Logo"><a href="../index.html"><img src="images/Logo.png" alt="avatar" class="logo"></a></div>
-                    <li><a href='Log_in.html'>Login</a></li>
-                    <li><a href="Page_Map.html">Localisation</a></li>
-                    <li><a href="nous_rejoindre.html">Nous rejoindre</a></li>
-                </ul>
-            </header>
-        </div>
-        <div class='login_page'>
-            <div class='loginbox'>
-                <form class='signin_form'>
-                    <h1>Sign In</h1>
-                    <p>Username</p>
-                    <input type='text' name='' placeholder='Enter Username'>
-                    <p>Courriel</p>
-                    <input type='email' name='' placeholder="Entrer votre email">
-                    <p>Password</p>
-                    <input type='password' name='' placeholder='Enter Password'>
-                    <input type='password' name='' placeholder='Enter a nouveau Password'>
-                    <input type='submit' name='' value="Login"><br>
-                    <p class="message"> Deja de compte? <a href='Log_in.html'> Log in!</a></p>
-                </form>
-            </div>
-        </div>
-    </body>
-    <footer class="footer" >
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="quietesvousc.css">
+</head>
+<body>
+
+<header>
+    <ul class="nav">	
+        <div class="Logo"><a href="../index.html"><img src="images/Logo.png" alt="avatar" class="logo"></a></div>
+        <li><a href='Log_in.html'>Login</a></li>
+        <li><a href="Page_Map.html">Localisation</a></li>
+        <li><a href="nous_rejoindre.html">Nous rejoindre</a></li>
+    </ul>
+</header>
+    
+<h1>Contactez-nous!</h1>
+<div class = "main">
+  <div class = "Formulaire_de_contact1">
+      <h1>Pour les clients!</h1>
+      <div class = "affichage_page1">
+          <label>Nom d'utilisateur:</label>
+          <input type = "text" name ="n_utilisateur" value ="" placeholder="Entrez votre nom">
+      </div>
+      <div class = "affichage_page1">
+          <label>Adresse e-mail:</label>
+          <input type = "email" name = "mail" value ="" placeholder = "Entrez votre adresse mail">
+      </div>
+      <div class = "affichage_page1">
+      <label>Commentaire:</label>
+      <textarea></textarea>
+      </div>
+      <a class="bouton_envoyer1">Envoyer</a>
+  </div>
+
+  <div class = "Formulaire_application2">
+      <h1>Pour les restaurants!</h1>
+      <div class = "affichage_page2">
+          <label>Nom du restaurant:</label>
+          <input type = "text" name ="n_utilisateur" value ="" placeholder="Entrez votre nom">
+      </div>
+      <div class = "affichage_page2">
+          <label>Type de restauration:</label>
+          <input type = "text" name ="n_utilisateur" value ="" placeholder="Décrivez votre type restauration">
+      </div>
+      <div class = "affichage_page2">
+          <label>Adresse e-mail:</label>
+          <input type = "email" name = "mail" value ="" placeholder = "Entrez votre adresse mail">
+      </div>
+      <div class = "affichage_page2">
+              <label>Adresse physique:</label>
+              <input type = "text" name = "adresse" value ="" placeholder = "Entrez l'adresse de votre restaurant">
+      </div>
+      <div class = "affichage_page2">
+              <label>Numéro de téléphone:</label>
+              <input type = "tel" name = "adresse" value ="" placeholder = "Entrez votre numéro de telephone">
+      </div>
+      <div class = "affichage_page2">
+          <label>Décrivez style de restauration:</label>
+          <textarea></textarea>
+      </div>
+
+      <a class="bouton_envoyer2">Envoyer</a>
+  </div>
+</div>
+<footer class="footer" >
         <div>
         <h2 style="color:white"><center>DROP-EAT</center></h2>
         <div class="createur">
@@ -64,4 +95,3 @@
         </div>
       </footer>
 </html>
- 
