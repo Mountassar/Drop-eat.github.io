@@ -41,7 +41,7 @@ body > p {
 		display:block;
 		padding:40px 40px 15px 10px;
 		text-decoration:none;
-    text-align:center;
+        text-align:center;
 }
 .nav > li > a:hover {
     color : #000000;
@@ -59,11 +59,11 @@ body > p {
 
 .header {
 	height:0px;
-  background-color: #999797;
-  position: fixed;
-  width:0%;
-  margin-top: 0;
-  margin-left: 0;
+    background-color: #999797;
+    position: fixed;
+    width:0%;
+    margin-top: 0;
+    margin-left: 0;
 }
 .title{
   margin-top: 110px;
@@ -110,15 +110,18 @@ body > p {
   margin-top: -5%;
 
 }
-
+.bande{
+  width:100%;
+  background: #F9F9F9;
+  z-index: 2;
+}
 .container {
-  width: 100%;
+  width: 1000px;
   height: auto;
   text-align: center;
   margin: auto;
-  }
+}
 .footer {
-  position: absolute;
   left: 0;
   bottom: -300px;
   width: 100%;
@@ -126,7 +129,45 @@ body > p {
   color: white;
   text-align: center;
 }
-
 .createur{
-  color: #000000;
+color: #000000;
 }
+.imgg {
+  margin-top: 75px;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.webnots-notification-boxx {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: monospace, 'open sans', sans-serif;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  padding: 10px 14px 10px 44px;
+  position: relative;
+  box-shadow: 0px 1px 5px #999;
+  background-color: #f2f2f2;
+  width: 96%;
+  font-size: 20;
+  color: black;
+  }
+  .webnots-notification-box {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: monospace, 'open sans', sans-serif;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  padding: 10px 14px 10px 44px;
+  position: relative;
+  box-shadow: 0px 1px 5px #999;
+  background-color: #f2f2f2;
+  width: 96%;
+  font-size: 20;
+  color: black;
+  }
