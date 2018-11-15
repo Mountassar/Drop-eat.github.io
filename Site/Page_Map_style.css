@@ -100,7 +100,6 @@ input[type=submit] {
     margin: auto;
 }
 .footer {
-      position: absolute;
       left: 0;
       bottom: -380px;
       width: 100%;
