@@ -8,21 +8,21 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 .Identification_clientèle{
-    
+
     font-family       : Tahoma;
     font-size         : 2em;
     padding           : 1em;
 
 }
 .Identification_clientèle li{
-    
+
     list-style-type   : none;
     display           : inline-block;
     padding: 10px 90px;
     margin: 50px;
 
 }
-.Identification_clientèle li a{ 
+.Identification_clientèle li a{
     border: 2px solid green;
     color             :black;
     border-radius: 100%;
@@ -64,7 +64,7 @@ h1{
 	color: #F4F4F4;
 	list-style: none;
 	text-align: center;
-    padding: 0; 
+    padding: 0;
 	margin:0 0 0 0;
 	position: fixed;
     width:100%;
@@ -118,7 +118,7 @@ h1{
 
 /*Client*/
 .Formulaire_de_contact1{
-    width: 85%;
+    width: 80%;
     max-width: 600px;
     background: #f1f1f1;
     position: absolute;
